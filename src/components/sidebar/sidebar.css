@@ -1,7 +1,7 @@
 .sidebar {
     flex: 3;
     height: calc(100vh - 50px);
-    background-color: rgb(250, 250, 214);
+    background-color: rgb(234, 234, 234);
     overflow-y: scroll;
 }
 
@@ -26,7 +26,17 @@
 .sidebarListItem {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sidebarListItem:hover {
+    background-color: #d7d7d7;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.sidebarListItemText {
+    padding-left: 0.5rem;
 }
 
 .sidebarButton {
@@ -35,6 +45,16 @@
     padding: 10px;
     border-radius: 5px;
     font-weight: 500;
+    background-color: #d1d1d1;
+    cursor: pointer;
+}
+.sidebarButton:hover {
+    background-color: #c5cbe7;
+    transform: translateY(20%);
+    transition: 0.5s;
+}
+.sidebarButton:not(:hover) {
+    transition: 0.5s;
 }
 .sidebarHr {
     margin: 20px 0;

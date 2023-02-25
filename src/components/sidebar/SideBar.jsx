@@ -53,8 +53,8 @@ export default function SideBar() {
 						<span className="sidebarListItemText">Courses</span>
 					</li>
 				</ul>
-
 				<button className="sidebarButton">Show More</button>
+				
 				<hr className="sidebarHr" />
 				<ul className="sidebarFriendList">
 					<li className="sidebarFriends">
